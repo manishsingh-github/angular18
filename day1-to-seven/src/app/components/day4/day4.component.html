@@ -1,0 +1,20 @@
+<div>
+      <h1>Day 4 - Form + Two-Way Binding</h1>
+      <div>
+            <label for="name">Enter your Name</label>
+            <input type="text" [(ngModel)]="userName" placeholder="Enter Your Name">
+            <label for="age">Enter your age</label>
+            <input type="text" [(ngModel)]="userAge" placeholder="Enter Your Age">
+            <label for="city">Enter your city</label>
+            <input type="text" [(ngModel)]="cityname">
+      </div>
+      <div>
+            <span>Name:-</span> {{userName}}
+      </div>
+       <div>
+            <span>Age:-</span> {{userAge}}
+      </div>
+       <div>
+            <span>City:-</span> {{cityname}}
+      </div>
+</div>

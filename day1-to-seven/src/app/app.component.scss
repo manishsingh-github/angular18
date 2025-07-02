@@ -1,0 +1,14 @@
+.st-navigation{
+    display: flex;
+    background-color: #f1f1f1;
+    margin-bottom: 1.5rem;
+    .st-nav{
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+    }
+}
+
+.st-days{
+    padding: 1rem 2rem;
+}

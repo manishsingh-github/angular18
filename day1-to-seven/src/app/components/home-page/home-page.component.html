@@ -1,0 +1,27 @@
+<div>
+    <h1>Day 1</h1>
+    <label for="name">Enter Your Name</label>
+    <input 
+    type="text" 
+    placeholder="Enter Your Name" 
+    (keyup.enter)="showMessage(name.value)" 
+    #name>
+    <!-- <h1><span>{{response | date: 'short'}}</span>{{userName}}</h1>
+    <p>{{response | date: 'medium'}}</p>
+    <p>{{response | date: 'long'}}</p>
+    <p>{{response | date: 'full'}}</p>
+    <p>shortDate:- {{response | date: 'shortDate'}}</p>
+    <p>mediumDate:- {{response | date: 'mediumDate'}}</p>
+    <p>longDate:- {{response | date: 'longDate'}}</p>
+    <p>fullDate:-{{response | date: 'fullDate'}}</p> -->
+    <p>shortTime:- {{response | date: 'shortTime'}}</p>
+    <!-- <p>mediumTime:-{{response | date: 'mediumTime'}}</p>
+    <p>longTime:-{{response | date: 'longTime'}}</p>
+    <p>fullTime:-{{response | date: 'fullTime'}}</p> -->
+
+    <div class="st-flex">
+        <h1 *ngIf="userName"><span class="mr-2">{{greetings}}</span>{{userName}}</h1>
+    </div>
+
+</div>
+

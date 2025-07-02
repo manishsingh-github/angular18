@@ -1,0 +1,103 @@
+/* EquipLight font */
+@font-face {
+  font-display: swap;
+  font-family: 'EquipLight';
+  src: url('equiplig-webfont.woff2') format('woff2'),
+       url('equiplig-webfont.woff') format('woff'),
+       url('equiplig-webfont.ttf') format('truetype');
+  /* font-weight: normal;
+  font-style: normal; */
+  unicode-range: u+000-5ff
+}
+
+/* EquipReg font */
+@font-face {
+    font-display: swap;
+    font-family: "EquipReg";
+    src: url("EquipReg.eot"); /* IE9 Compat Modes */
+    src: url("EquipReg.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */ url("EquipReg.otf") format("opentype"),
+      /* Open Type Font */ url("EquipReg.svg") format("svg"),
+      /* Legacy iOS */ url("EquipReg.ttf") format("truetype"),
+      /* Safari, Android, iOS */ url("EquipReg.woff") format("woff"),
+      /* Modern Browsers */ url("EquipReg.woff2") format("woff2"); /* Modern Browsers */
+    /* font-weight: normal;
+    font-style: normal; */
+    unicode-range: u+000-5ff
+  }
+  
+  /* EquipMedium font*/
+  @font-face {
+    font-display: swap;
+    font-family: "EquipMedium";
+    src: url("EquipMedium.eot");
+    src: url("EquipMedium.eot?#iefix") format("embedded-opentype"),
+      url("EquipMedium.woff2") format("woff2"),
+      url("EquipMedium.woff") format("woff"),
+      url("EquipMedium.ttf") format("truetype"),
+      url("EquipMedium.svg#EquipMedium") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: u+000-5ff;
+  }
+
+    /* EquipBold font*/
+    @font-face {
+      font-display: swap;
+      font-family: "EquipBold";
+      src: url("equipbol-webfont.woff2") format("woff2"),
+        url("equipbol-webfont.woff") format("woff"),
+        url("equipbol-webfont.ttf") format("truetype");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+      unicode-range: u+000-5ff;
+    }
+  
+  /* EquipExtended-Regular */ 
+  @font-face {
+    font-display: swap;
+    font-family: "EquipExtendedReg";
+    src: url("EquipExtReg.eot"); /* IE9 Compat Modes */
+    src: url("EquipExtReg.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */ url("EquipExtReg.otf") format("opentype"),
+      /* Open Type Font */ url("EquipExtReg.svg") format("svg"),
+      /* Legacy iOS */ url("EquipExtReg.ttf") format("truetype"),
+      /* Safari, Android, iOS */ url("EquipExtReg.woff") format("woff"),
+      /* Modern Browsers */ url("EquipExtReg.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: u+000-5ff;
+  }
+
+   /* EquipExtended-Regular */
+   @font-face {
+    font-display: swap;
+    font-family: "EquipExtendedMedium";
+    src: url("EquipMedium.eot"); /* IE9 Compat Modes */
+    src: url("EquipMedium.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */ url("EquipMedium.otf") format("opentype"),
+      /* Open Type Font */ url("EquipMedium.svg") format("svg"),
+      /* Legacy iOS */ url("EquipMedium.ttf") format("truetype"),
+      /* Safari, Android, iOS */ url("EquipMedium.woff") format("woff"),
+      /* Modern Browsers */ url("EquipMedium.woff2") format("woff2"); /* Modern Browsers */
+    /* font-weight: normal; */
+    /* font-style: normal; */
+    unicode-range: u+000-5ff;
+  }
+  
+  /* EquipExtendedBold */
+  @font-face {
+    font-family: "EquipExtendedBold";
+    src: url("EquipExtendedBold.eot");
+    src: url("EquipExtendedBold.eot?#iefix")
+        format("embedded-opentype"),
+      url("EquipExtendedBold.woff2") format("woff2"),
+      url("EquipExtendedBold.woff") format("woff"),
+      url("EquipExtendedBold.ttf") format("truetype"),
+      url("EquipExtendedBold.svg#EquipExtendedBold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }

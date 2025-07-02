@@ -1,0 +1,22 @@
+<div>
+    <h1>Day 2 - Working with Lists</h1>
+    <table class="st-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr *ngFor="let list of students; let i = index">
+                <td>{{i}}</td>
+                <td>{{list.name}}</td>
+                <td>{{list.Age}}</td>
+                <td>
+                    <button type="button" (click)="deleteStudent(i)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
